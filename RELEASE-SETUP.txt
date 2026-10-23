@@ -1,0 +1,24 @@
+Trade With AM — Risk Management & Trade Journal Agent v1.0.0
+
+Windows x64: extract the entire ZIP and run RiskManagementTradeJournalAgent.exe.
+Python/Tkinter and UI dependencies are included. Keep _internal beside the EXE.
+
+Risk calculations and local SQLite records need no API credential or AI service.
+Optional watchlist discovery uses existing TradingView Desktop debug/CDP,
+Node.js and TradingView MCP. The model selector reads a local catalogue only.
+
+Execute Trade creates a LOCAL record, never an exchange order. Starting Capital
+is fixed. Leverage/margin are estimates for multiplier-1 linear USD instruments;
+fees, slippage, lot rules and liquidation are not calculated. Risk >=5% warns.
+Journal pages and AI reports are not implemented; their buttons are placeholders.
+The Exchange Settings API controls only toggle input fields. Values are not saved
+or transmitted, and enabling the checkbox is not permission to execute a trade.
+
+Private data: %LOCALAPPDATA%\TradeWithAM\RiskManagementTradeJournalAgent\journal.sqlite3
+No personal database is included. Close the app before backing up the user-data
+folder. Keep your backup private and preserve it across application upgrades.
+
+Read README.md and INSTALL.md. Copy the complete docs/CHATGPT_MASTER_PROMPT.md
+into ChatGPT for step-by-step setup and optional future customization.
+Official repository: https://github.com/tradewithamofficial/Risk-Management-Trade-Journal-Agent
+MIT code license; retain third_party_licenses and THIRD-PARTY-NOTICES.md.
