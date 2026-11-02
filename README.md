@@ -6,6 +6,10 @@ V1 is a Windows CustomTkinter risk calculator and **local** trade-record manager
 It reuses the dark UI/dialog style and read-only TradingView watchlist/local model
 catalogue readers from the SMC agent. Existing agents are not changed.
 
+[**Install with ChatGPT — Step-by-Step**](INSTALL-WITH-CHATGPT.md)
+
+**Start here:** [TradingView MCP installation video](https://youtu.be/dwptd_aNn6I) · [Trade With AM YouTube channel](https://www.youtube.com/@TradeWithAMTrading/videos)
+
 ## What V1 does
 
 - Add, edit and delete exchange **display names** with a fixed USD Starting Capital.
